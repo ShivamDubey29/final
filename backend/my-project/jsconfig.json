@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "nodenext",
+    "module": "NodeNext",  // Add this line
+    "target": "ES2021",
+    "esModuleInterop": true,
+    "checkJs": true,
+    "allowJs": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "node_modules/koa-body",
+      "src/typings"
+    ]
+  }
+}
